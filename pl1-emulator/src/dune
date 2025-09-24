@@ -1,0 +1,13 @@
+(executables
+ (public_names pl1-parser)
+ (name main)
+ (libraries menhirLib))
+
+(menhir
+ (modules parser))
+
+(rule
+ (targets lexer.ml)
+ (deps lexer.mll)
+ (action
+  (run ocamllex %{deps})))

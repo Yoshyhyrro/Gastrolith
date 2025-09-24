@@ -1,0 +1,7 @@
+(lang dune 3.0)
+
+(package
+ (name pl1-parser)
+ (depends ocaml dune menhir)
+ (synopsis "PL/I Parser using OCaml and Menhir")
+ (description "A parser and interpreter for PL/I programming language"))
