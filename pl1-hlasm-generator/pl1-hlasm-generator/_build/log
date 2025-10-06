@@ -1,0 +1,31 @@
+# C:\Users\tyuuw\AppData\Local\opam\default\bin\dune.exe build -j 1
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location:
+# C:\Users\tyuuw\AppData\Local\Microsoft\Windows\INetCache\dune\db
+# Workspace root:
+# "C:\\Users\\tyuuw\\Documents\\pl1test\\ocaml_parser\\Gastrolith\\pl1-hlasm-generator\\pl1-hlasm-generator"
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\tyuuw\AppData\Local\Temp\dune_a63a21_output
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamldep.opt.exe -modules -impl src/generator.ml) > _build/default/src/.main.eobjs/dune__exe__Generator.impl.d
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I src/.main.eobjs/byte -I C:/Users/tyuuw/AppData/Local/opam/default/lib/ocaml\str -I C:\Users\tyuuw\AppData\Local\opam\default\lib\angstrom -I C:\Users\tyuuw\AppData\Local\opam\default\lib\bigstringaf -no-alias-deps -opaque -open Dune__exe -o src/.main.eobjs/byte/dune__exe__Pl1_lexer.cmo -c -impl src/Pl1_lexer.ml)
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I src/.main.eobjs/byte -I C:/Users/tyuuw/AppData/Local/opam/default/lib/ocaml\str -I C:\Users\tyuuw\AppData\Local\opam\default\lib\angstrom -I C:\Users\tyuuw\AppData\Local\opam\default\lib\bigstringaf -no-alias-deps -opaque -open Dune__exe -o src/.main.eobjs/byte/dune__exe__Main.cmi -c -intf src/main.mli)
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I src/.main.eobjs/byte -I C:/Users/tyuuw/AppData/Local/opam/default/lib/ocaml\str -I C:\Users\tyuuw\AppData\Local\opam\default\lib\angstrom -I C:\Users\tyuuw\AppData\Local\opam\default\lib\bigstringaf -no-alias-deps -opaque -open Dune__exe -o src/.main.eobjs/byte/dune__exe__Generator.cmo -c -impl src/generator.ml)
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I src/.main.eobjs/byte -I C:/Users/tyuuw/AppData/Local/opam/default/lib/ocaml\str -I C:\Users\tyuuw\AppData\Local\opam\default\lib\angstrom -I C:\Users\tyuuw\AppData\Local\opam\default\lib\bigstringaf -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o src/.main.eobjs/byte/dune__exe__Main.cmo -c -impl src/main.ml)
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o src/main.bc C:\Users\tyuuw\AppData\Local\opam\default\lib\bigstringaf\bigstringaf.cma -I C:\Users\tyuuw\AppData\Local\opam\default\lib\bigstringaf\../stublibs C:\Users\tyuuw\AppData\Local\opam\default\lib\angstrom\angstrom.cma C:/Users/tyuuw/AppData/Local/opam/default/lib/ocaml\str\str.cma src/.main.eobjs/byte/dune__exe.cmo src/.main.eobjs/byte/dune__exe__Pl1_lexer.cmo src/.main.eobjs/byte/dune__exe__Generator.cmo src/.main.eobjs/byte/dune__exe__Main.cmo)
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o src/main.exe -output-complete-exe C:\Users\tyuuw\AppData\Local\opam\default\lib\bigstringaf\bigstringaf.cma -I C:\Users\tyuuw\AppData\Local\opam\default\lib\bigstringaf C:\Users\tyuuw\AppData\Local\opam\default\lib\angstrom\angstrom.cma C:/Users/tyuuw/AppData/Local/opam/default/lib/ocaml\str\str.cma src/.main.eobjs/byte/dune__exe.cmo src/.main.eobjs/byte/dune__exe__Pl1_lexer.cmo src/.main.eobjs/byte/dune__exe__Generator.cmo src/.main.eobjs/byte/dune__exe__Main.cmo)
+> ** Cannot resolve symbols for C:/Users/tyuuw/AppData/Local/opam/default/lib/ocaml\libcamlrun.a(startup_aux.b.o):
+>  swscanf
+> ** Cannot resolve symbols for descriptor object:
+>  _vscwprintf
+> File "_none_", line 1:
+> Error: Error while building custom runtime system
+[2]

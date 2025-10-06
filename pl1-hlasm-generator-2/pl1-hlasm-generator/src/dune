@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (public_name pl1_hlasm_generator)
+ (modules Hlasm_ast hlasm_parser main)
+ (libraries angstrom)
+ (modes byte))

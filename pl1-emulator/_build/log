@@ -1,0 +1,24 @@
+# C:\Users\tyuuw\AppData\Local\opam\default\bin\dune.exe build
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location:
+# C:\Users\tyuuw\AppData\Local\Microsoft\Windows\INetCache\dune\db
+# Workspace root:
+# "C:\\Users\\tyuuw\\Documents\\pl1test\\ocaml_parser\\Gastrolith\\pl1-emulator"
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\tyuuw\AppData\Local\Temp\dune_678305_output
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamldep.opt.exe -modules -impl src/main.ml) > _build/default/src/.main.eobjs/dune__exe__Main.impl.d
+$ (cd _build/default/src && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamllex.exe lexer.mll)
+> File "lexer.mll", line 47, character 17: illegal character '.
+[3]
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamldep.opt.exe -modules -impl src/ast.ml) > _build/default/src/.main.eobjs/dune__exe__Ast.impl.d
+$ (cd _build/default && C:\Users\tyuuw\AppData\Local\opam\default\bin\ocamldep.opt.exe -modules -intf src/config.mli) > _build/default/src/.main.eobjs/dune__exe__Config.intf.d

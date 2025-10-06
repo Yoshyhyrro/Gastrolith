@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (public_name pl1_hlasm_generator)
+ (libraries angstrom str)
+ ;; Build bytecode to avoid native linker issues on some Windows setups
+ (modes byte))
