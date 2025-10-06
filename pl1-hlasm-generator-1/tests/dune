@@ -1,6 +1,0 @@
-(executable
- (name test_interpreter)
- (public_name test_interpreter)
- (modules test_interpreter)
- (libraries alcotest pl1_hlasm_generator)
- (preprocess (pps ppx_jane)))

@@ -1,4 +1,0 @@
-(lang dune 3.17)
-(name pl1-parser)
-(sections (lib .) (bin ../../bin))
-(files (lib (META dune-package)) (bin (pl1_parser.exe)))

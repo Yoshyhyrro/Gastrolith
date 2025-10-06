@@ -1,8 +1,0 @@
-(lang dune 3.0)
-
-(name pl1-hlasm-generator)
-
-(package
- (name pl1-hlasm-generator)
- (depends ocaml dune angstrom)
- (description "Generate HLASM from PL/I using the existing parser scaffolding"))

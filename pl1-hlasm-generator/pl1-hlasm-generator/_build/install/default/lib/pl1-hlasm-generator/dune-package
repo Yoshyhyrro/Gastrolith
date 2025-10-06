@@ -1,7 +1,0 @@
-(lang dune 3.17)
-(name pl1-hlasm-generator)
-(sections (lib .) (bin ../../bin) (doc ../../doc/pl1-hlasm-generator))
-(files
- (lib (META dune-package))
- (bin (pl1_hlasm_generator.exe))
- (doc (README.md)))
