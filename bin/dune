@@ -1,0 +1,20 @@
+(executable
+ (name pl1_lint)
+ (modules pl1_lint)
+ (libraries pl1_core angstrom)
+ (enabled_if false))
+
+(executable
+ (name pl1_demo)
+ (modules pl1_demo)
+ (libraries pl1_core angstrom)
+ (public_name pl1_demo)
+ (modes byte)
+ (enabled_if false))
+
+(executable
+ (name pl1_analyze)
+ (modules pl1_analyze)
+ (libraries pl1_core cmdliner str)
+ (public_name pl1_analyze)
+ (modes byte native))

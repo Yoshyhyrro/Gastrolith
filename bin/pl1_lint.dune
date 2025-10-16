@@ -1,0 +1,6 @@
+(executable
+ (name pl1_lint)
+ (public_name pl1-lint)
+ (modules pl1_lint)
+ (libraries pl1-core angstrom ppxlib)
+)

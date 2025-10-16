@@ -1,0 +1,8 @@
+(executable
+ (name pl1_demo)
+ (public_name pl1-demo)
+ (modules driver)
+ (libraries pl1-core menhirLib)
+ (preprocess (action (run ocamlc -c %{dep:src/lexer.mll})))
+ (menhir (modules parser))
+)
