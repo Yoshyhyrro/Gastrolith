@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Gastrolith
-Since I have no prior experience with mainframes, this project is born from a desire for self-study. It's my personal journey to learn PL/I from the ground up and make this knowledge accessible to others.
-=======
 Gastrolith - lightweight HLASM/PL1 parser and linter
 
 This workspace contains a refactored HLASM parser and a small `pl1-lint` binary
@@ -20,4 +16,3 @@ Notes
 - The linter currently implements a few sample checks (undefined symbols, long lines).
 - The parser modules are in the repository (hlasm_*.ml). The lint binary reuses them.
 - Future: add more lint rules, integrate with CI, output JSON/clang-format compatible reports.
->>>>>>> hotfix/kanchigai_kai

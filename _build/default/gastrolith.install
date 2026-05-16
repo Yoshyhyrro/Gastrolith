@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/gastrolith/META"
+  "_build/install/default/lib/gastrolith/dune-package"
+  "_build/install/default/lib/gastrolith/opam"
+]
+doc: [
+  "_build/install/default/doc/gastrolith/README.md"
+]

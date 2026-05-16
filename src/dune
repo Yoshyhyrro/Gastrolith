@@ -1,0 +1,6 @@
+(library
+ (name pl1_core)
+ (public_name pl1_analysis)
+ (package gastrolith)
+ (modules ast token preprocess driver)
+ (libraries angstrom))
