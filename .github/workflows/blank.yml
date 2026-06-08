@@ -20,7 +20,9 @@ jobs:
           ocaml-compiler: "5.3"
 
       - name: Install dependencies
-        run: opam install . --deps-only --with-test --with-doc -y
+        run: |
+          opam update
+          opam install . --deps-only --with-test --with-doc -y
 
       - name: Build
         run: opam exec -- dune build
