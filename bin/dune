@@ -8,7 +8,7 @@
  (name pl1_demo)
  (modules pl1_demo)
  (libraries pl1_core angstrom)
- (public_name pl1_demo)
+ (public_name pl1_analysis.pl1_demo)
  (modes byte)
  (enabled_if false))
 
@@ -16,5 +16,5 @@
  (name pl1_analyze)
  (modules pl1_analyze)
  (libraries pl1_core cmdliner str)
- (public_name pl1_analyze)
+ (public_name pl1_analysis.pl1_analyze)
  (modes byte native))
