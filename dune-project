@@ -5,7 +5,7 @@
 (using menhir 2.1)
 
 (package
- (name gastrolith)
+ (name pl1_analysis)
  (synopsis "PL/I card format parser and linter")
  (description "PL/I card format parser and linter with modern warnings")
  (license MIT)
@@ -16,7 +16,6 @@
  (depends
   (ocaml (>= 5.3.0))
   (dune (>= 3.14))
-  str
   angstrom
   ppxlib
   menhir)

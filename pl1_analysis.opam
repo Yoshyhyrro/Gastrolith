@@ -12,7 +12,6 @@ depends: [
   "dune" {build}
   "angstrom"
   "cmdliner"
-  "str"
   "ppxlib"
   "menhir"
   "odoc" {with-doc}
