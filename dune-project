@@ -16,7 +16,6 @@
  (depends
   (ocaml (>= 5.3.0))
   (dune (>= 3.14))
-  str
   angstrom
   ppxlib
   menhir)
